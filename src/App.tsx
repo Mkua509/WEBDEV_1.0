@@ -1,5 +1,4 @@
 import { CoolButton } from "./components/CoolButton";
-import React, { useState } from "react";
 
 function App() {
   return (
@@ -8,6 +7,7 @@ function App() {
         <img
           src="/avatar-jessica.jpeg"
           className="w-[90px] h-[90px] rounded-full mb-5 mt-7"
+          alt="This is a image of Jessica"
         />
         <h1 className="text-white text-2xl mb-2 font-bold">Jessica Randall</h1>
         <h2 className="text-[#c5f82a] text-sm font-bold mb-6">
